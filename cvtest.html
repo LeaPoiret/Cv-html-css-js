@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cvtest.css">
+    <title>CV test</title>
+</head>
+<body>
+    <!-- Grande DIV contenant toutes les cards -->
+
+    <div class="app">
+ 
+    <!-- Début DIV flèche gauche carrousel-->
+
+        <div class="cardList">
+            <button class="cardList__btn btn btn--left">
+                <div class="icon">
+                    <svg>
+                        <use xlink:href="#arrow-left"></use>
+                    </svg>
+                </div>
+            </button>
+
+    <!-- Fin DIV flèche gauche carrousel -->
+
+    <!-- DIV contenant 3 cards -->
+
+            <div class="cards__wrapper">
+                <div class="card current--card">
+                    <div class="card__image">
+                        <img class="image1" src="https://img.freepik.com/free-photo/bw-greek-statue-image-torn-paper-style-remixed-media_53876-126829.jpg?w=1380&t=st=1667469569~exp=1667470169~hmac=904fc77392e17a3a8e86651d518a367e36e7a82d50d428ad1c918e1dafb068b6" alt="" />
+                    </div>
+                </div>
+    
+                <div class="card next--card">
+                    <div class="card__image">
+                        <img src="https://img.freepik.com/free-photo/calathea-orbifolia-natural-leaves-background_53876-98363.jpg?w=826&t=st=1667471954~exp=1667472554~hmac=7c3716a952d5c2f3732532f0590507db286a511a8bc5f6ec1391b48c4e2494a7" alt="" />
+                    </div>
+                </div>
+    
+                <div class="card previous--card">
+                    <div class="card__image">
+                        <img src="https://img.freepik.com/free-photo/grunge-cracked-wall_1194-5682.jpg?w=740&t=st=1667471444~exp=1667472044~hmac=6a123132f68b87abd1f140f9bf9eb331a44ac3bc6cc2d37f7273e81152a04399" alt="" />
+                    </div>
+                </div>
+            </div>
+
+    <!-- Fin de la DIV contenant 3 cards -->
+
+    <!-- Début DIV flèche droite carrousel -->
+
+            <button class="cardList__btn btn btn--right">
+                <div class="icon">
+                    <svg>
+                        <use xlink:href="#arrow-right"></use>
+                    </svg>
+                </div>
+            </button>
+        </div>
+
+    <!-- Fin de la DIV flèhe droite carrousel -->
+
+    <!-- Début DIV text dans cards -->
+
+        <div class="infoList">
+            <div class="info__wrapper">
+                <div class="info current--info">
+                    <h1 class="text name">Poiret Léa</h1>
+                    <h2 class="text location">Développeur Web</h2>
+                    <p class="text description1">Conceptrice Développeuse d'Application</p>
+                </div>
+    
+                <div class="info next--info">
+                    <h2 class="text name">Machu Pichu</h2>
+                    <h2 class="text location">Peru</h2>
+                    <p class="text description">Adventure is never far away</p>
+                </div>
+    
+                <div class="info previous--info">
+                    <h2 class="text name">Chamonix</h2>
+                    <h2 class="text location">France</h2>
+                    <p class="text description">Let your dreams come true</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Fin DIV text das cards -->
+    
+        <!-- Début DIV background des cards -->
+
+        <div class="app__bg">
+            <div class="app__bg__image current--image">
+                <img src="https://img.freepik.com/free-photo/bw-greek-statue-image-torn-paper-style-remixed-media_53876-126829.jpg?w=1380&t=st=1667469569~exp=1667470169~hmac=904fc77392e17a3a8e86651d518a367e36e7a82d50d428ad1c918e1dafb068b6" alt="" />
+            </div>
+            <div class="app__bg__image next--image">
+                <img src="https://img.freepik.com/free-photo/calathea-orbifolia-natural-leaves-background_53876-98363.jpg?w=826&t=st=1667471954~exp=1667472554~hmac=7c3716a952d5c2f3732532f0590507db286a511a8bc5f6ec1391b48c4e2494a7" alt="" />
+            </div>
+            <div class="app__bg__image previous--image">
+                <img src="https://img.freepik.com/free-photo/grunge-cracked-wall_1194-5682.jpg?w=740&t=st=1667471444~exp=1667472044~hmac=6a123132f68b87abd1f140f9bf9eb331a44ac3bc6cc2d37f7273e81152a04399" alt="" />
+            </div>
+        </div>
+    </div>
+
+        <!-- Fin DIV background des cards -->
+    
+        <!-- Loading -->
+    <div class="loading__wrapper">
+        <div class="loader--text">Loading...</div>
+        <div class="loader">
+            <span></span>
+        </div>
+    </div>
+        <!-- Fin loading -->
+    
+        <!-- Flèche design-->
+    <svg class="icons" style="display: none;">
+        <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='328 112 184 256 328 400'
+                         style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+        <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='184 112 328 256 184 400'
+                         style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+    </svg>
+
+    <!-- Fin flèche design -->
+    
+
+    <div class="support">
+        <a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
+    </div>
+
+    <div class="support">
+        <a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
+    </div>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+<script src="cvtest.js"></script>
+</body>
+</html>
